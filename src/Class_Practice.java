@@ -5,9 +5,10 @@ import java.util.regex.Pattern;
 public class Class_Practice {	
 	
 	public static void main(String[] args) {
-		for(int i = 0; i < 10; i++) {
-			i = 9;
-			System.out.println(i);
+		boolean[] arr = new boolean[4];
+		
+		for(boolean val: arr) {
+			System.out.println(val);
 		}
 	}
 }
