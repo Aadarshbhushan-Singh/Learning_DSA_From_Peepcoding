@@ -6,10 +6,12 @@ import java.util.regex.Pattern;
 public class Class_Practice {	
 	
 	public static void main(String[] args) {
-		for(int i = 0; i < 10; i++) {
-			i = 9;
-			System.out.println(i);
-		}
+		char a = 104;
+		System.out.println(a);
+		int x = 'a';
+		System.out.println(x);
+		
+		
 	}
 }
 
