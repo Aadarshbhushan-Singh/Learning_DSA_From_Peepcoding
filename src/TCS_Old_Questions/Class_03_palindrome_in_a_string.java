@@ -10,7 +10,7 @@ Input: aaaaa
 Output: a a aaa
  * */
 
-public class Class_3_palindrome_in_a_string {
+public class Class_03_palindrome_in_a_string {
 	public static void main(String[] args) {
 		String str = "aaabbbccc";
 		System.out.println(check3Palindrome("nayannamantenet"));
