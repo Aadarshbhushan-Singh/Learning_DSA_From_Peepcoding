@@ -10,7 +10,7 @@ public class Class_49_largest_sum_possible {
 	 static String findLargest(int N, int S){
 	        
 	        if(S == 0 && N > 1){
-	            return "-1";
+	            return "-1"; ""
 	        }
 	        int origS = S;
 	        String ans = "";
