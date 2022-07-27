@@ -5,6 +5,7 @@ public class Class_60_Longest_common_prefix {
 			String[] strs = {"flower","flow","flight"};
 			String ans = longestCommonPrefix(strs);
 			System.out.println(ans);
+			
 	}
 	public static String longestCommonPrefix(String[] strs) {
         String str = strs[0];
