@@ -1,7 +1,7 @@
 package general_Practice;
 import java.util.*;
 
-public class Class_60_roman_to_integer {
+public class Class_61_roman_to_integer {
 	public static void main(String[] args) {
 		String roman = "CDXLIII";
 		int ans = romanToInt("CDXLIII");
