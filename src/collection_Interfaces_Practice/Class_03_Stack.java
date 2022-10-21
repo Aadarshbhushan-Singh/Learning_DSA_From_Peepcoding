@@ -28,4 +28,32 @@ public class Class_03_Stack {
 			System.out.print(itr.next() + " ");
 		}
 	}
+	
+	static boolean checkBracker(String str) {
+        Stack<Character> st = new Stack();
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch == '(' || ch == '[' || ch == '{') {
+                st.push(ch);
+                continue;
+            }
+            if (st.isEmpty()) return false;
+            char check;
+            switch (ch) {
+                case ')':
+                    check = (char) st.pop();
+                    if (check == '{' || check == '[') return false;
+                    break;
+                case '}':
+                    check = (char) st.pop();
+                    if (check == '(' || check == '[') return false;
+                    break;
+                case ']':
+                    check = (char) st.pop();
+                    if (check == '(' || check == '{') return false;
+                    break;
+            }
+        }
+        return (st.isEmpty());
+    }
 }
